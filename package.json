@@ -1,0 +1,31 @@
+{
+  "name": "hogan-express-shim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HughePaul/hogan-express-shim.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HughePaul/hogan-express-shim/issues"
+  },
+  "homepage": "https://github.com/HughePaul/hogan-express-shim#readme",
+  "dependencies": {
+    "async": "^3.0.1",
+    "debug": "^4.1.1",
+    "express-hogan-pdf": "^2.1.0",
+    "glob": "^7.1.4",
+    "hmpo-govuk-template": "^0.2.0",
+    "hmpo-template-mixins": "^7.6.1",
+    "hmpo-templates": "^2.8.0",
+    "hogan-express-strict": "^0.5.4",
+    "install": "^0.12.2",
+    "npm": "^6.9.0"
+  }
+}
