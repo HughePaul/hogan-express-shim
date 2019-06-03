@@ -99,6 +99,8 @@ const mixinHoganView = (Parent, hoganTemplates) => {
 
             // add template mixins
             require('hmpo-template-mixins')()(req, res, () => {
+                options._hoganLocals = res.locals;
+                options._originalLocals._hoganLocals = res.locals;
                 options._originalLocals.translate = res.locals.translate;
                 options._originalLocals.t = res.locals.t;
                 // render the template
