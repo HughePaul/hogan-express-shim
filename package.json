@@ -24,8 +24,6 @@
     "hmpo-govuk-template": "^0.2.0",
     "hmpo-template-mixins": "^7.6.1",
     "hmpo-templates": "^2.8.0",
-    "hogan-express-strict": "^0.5.4",
-    "install": "^0.12.2",
-    "npm": "^6.9.0"
+    "hogan-express-strict": "^0.5.4"
   }
 }
