@@ -88,7 +88,7 @@ const mixinHoganView = (Parent, hoganTemplates) => {
             options._originalLocals.partials = options.partials;
             options.assetPath = '/public';
             let req = { translate: options._originalTranslate };
-            let res = { locals: options };
+            let res = { locals: options, render: function(){} };
 
             let ctx = {
                 ext: this.ext,
@@ -103,6 +103,8 @@ const mixinHoganView = (Parent, hoganTemplates) => {
                 options._originalLocals._hoganLocals = res.locals;
                 options._originalLocals.translate = res.locals.translate;
                 options._originalLocals.t = res.locals.t;
+                res.render(); // set up the mixins error content
+
                 // render the template
                 debug('Rendering', this.name, filename);
 
