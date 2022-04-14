@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/HughePaul/hogan-express-shim#readme",
   "dependencies": {
-    "async": "^3.0.1",
+    "async": "^3.2.2",
     "debug": "^4.1.1",
     "express-hogan-pdf": "^2.1.0",
     "glob": "^7.1.4",
